@@ -1,4 +1,4 @@
-# dataVisualization#
+# dataVisualization #
  f11全屏食用效果更佳
 ##  数据可视化大屏幕展示 ##
 ###  使用技术  ###
@@ -35,6 +35,6 @@
 + dataVisualization.html  直接运行在chrome即可
 
 ###  展示效果  ###
-[my-logo.png]: <img/page.png> "my-logo"
+![alt text](img/page.png "title text")
 
 
