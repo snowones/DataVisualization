@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>大屏</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href="font/font/css/font-awesome.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/index/index.css" rel="stylesheet"> <!--主要布局css-->
+    <link href="css/index/timeLine.css" rel="stylesheet"><!--时间线css-->
+    <link href="css/index/progress.css" rel="stylesheet"><!--子弹图css--> 
+</head>
+<body>
+
+
+<div class="layui-row ">
+    <header>
+        <span id="logo"><img src="img/headbg.png" alt=""></span>
+    </header>
+    <div class="content">
+        <div class="left">
+            <div class="leftOne">
+                <div class="onetitle">
+                    <span></span>
+                    <h3>用户资源</h3>
+                </div>
+                <ul>
+                    <li>
+                        <div>
+                            <span>87</span>
+                        </div>
+                        <p>总访问量</p>
+                    </li>
+                    <li>
+                        <div>
+                            <span>66</span>
+                        </div>
+                        <p>昨日访问量</p>
+                    </li>
+                    <li>
+                        <div>
+                            <span>18</span>
+                        </div>
+                        <p>当前人数</p>
+                    </li>
+                    <li>
+                        <div>
+                            <span>50</span>
+                        </div>
+                        <p>最大在线人数</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="leftTwo">
+                <div class="ltitem">
+                    <div class="ltitem1">
+                        <span>用户</span>
+                        <i class="fa fa-user"></i>
+                        <span>&nbsp;&nbsp;&nbsp;50</span>
+                    </div>
+                    <div class="ltitem2">
+                        <p>用户日活&nbsp;&nbsp;&nbsp;<span>41</span></p>
+                        <p>用户非日活&nbsp;&nbsp;&nbsp;<span>9</span></p>
+                    </div>
+                    <div class="ltitem3">
+                        <p>新增日活&nbsp;&nbsp;&nbsp;<i class="fa fa-long-arrow-up"></i> <span>3</span></p>
+                        <p>新增用户&nbsp;&nbsp;&nbsp;<i class="fa fa-long-arrow-up"></i> <span>0</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="ltitem">
+                    <div class="ltitem1">
+                        <span>部门</span>
+                        <i class="fa fa-user"></i>
+                        <span>&nbsp;&nbsp;&nbsp;5</span>
+                    </div>
+                    <div class="ltitem2">
+                        <p>部门日活&nbsp;&nbsp;&nbsp;<span>3</span></p>
+                        <p>部门非日活&nbsp;&nbsp;&nbsp;<span>2</span></p>
+                    </div>
+                    <div class="ltitem3">
+                        <p>新增日活&nbsp;&nbsp;&nbsp;<i class="fa fa-long-arrow-up"></i> <span>1</span></p>
+                        <p>新增部门&nbsp;&nbsp;&nbsp;<i class="fa fa-long-arrow-up"></i> <span>0</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="leftThree">
+                <div class="onetitle">
+                    <span></span>
+                    <h3>部门访问排名</h3>
+                </div>
+                <table class="layui-table" style="font-size: 18px;width: 100% ;height: 80%;text-align: center">
+                    <colgroup>
+                        <col width="30%">
+                        <col width="40%">
+                        <col width="30%">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th>名次</th>
+                        <th>组织</th>
+                        <th>访问量</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>开发部</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>市场部</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>调研部</td>
+                        <td>12</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="leftFour">
+                <div class="onetitle">
+                    <span></span>
+                    <h3>用户访问排名</h3>
+                </div>
+                <div id="leftmain" style="width: 45%;height:80%;"></div>
+                <div id="progress" style="width: 52%;height:80%;">
+                    <ul style="padding-top: 60px;box-sizing: border-box;">
+                        <li>
+                            <span>张三</span>
+                            <span style="width: 50%!important;"></span>
+                            <span>32</span>
+                        </li>
+                        <li>
+                            <span>李四</span>
+                            <span style="width: 45%!important;"></span>
+                            <span>27</span>
+                        </li>
+                        <li>
+                            <span>王二</span>
+                            <span style="width: 40%!important;"></span>
+                            <span>24</span>
+                        </li>
+                        <li>
+                            <span>小明</span>
+                            <span style="width: 35%!important;"></span>
+                            <span>19</span>
+                        </li>
+                        <li>
+                            <span>小红</span>
+                            <span style="width: 30%!important;"></span>
+                            <span>15</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="center">
+            <div class="centerOne">
+                <div class="centerOne-left">
+                    <div class="onetitle">
+                        <span></span>
+                        <h3>数据中心资源</h3>
+                    </div>
+                    <div class="yb" style="width:100%;height:60%;position: relative;top: 10%;">
+                        <div id="yb1"></div>
+                        <div id="yb2"></div>
+                    </div>
+                    <div class="bottomtitle"
+                         style="width:100%;height:10%;position:relative;top: 10%;text-align: center;font-size:0.6em;color:#238BF1!important;">
+                        <div style="position: absolute; height: 100%;width: 50%;left: 0;color:#238BF1!important;">计算消耗
+                        </div>
+                        <div style="position: absolute; height: 100%;width: 50%;right:0;color:#238BF1!important;">存储消耗
+                        </div>
+                    </div>
+                </div>
+                <div class="centerOne-right">
+                    <div id="centerOne-right" style="width:100%;height:60%;position: relative;top: 30%;"></div>
+                    <div class="bottomtitle"
+                         style="width:100%;height:10%;position:relative;top: 30%;text-align: center;font-size:0.6em;color:#238BF1!important;">
+                        <div style="position: absolute; height: 100%;width: 100%;color:#238BF1!important;">日志增长</div>
+                    </div>
+                </div>
+            </div>
+            <div class="centerTwo">
+                <div class="centerTwo-left">
+                    <div class="onetitle">
+                        <span></span>
+                        <h3>计算资源</h3>
+                    </div>
+                    <div style="width:100%;height:10%;position:relative;top: 5%;color:#238BF1!important;">
+                        <p style="font-size:0.7rem;color:#238BF1!important;">集群&nbsp;&nbsp;<span
+                                style="color: #51F1F1;">2</span>&nbsp;&nbsp;节点&nbsp;&nbsp;<span
+                                style="color: #51F1F1;">3</span>&nbsp;&nbsp;虚拟机&nbsp;&nbsp;<span
+                                style="color: #51F1F1;">4</span></p>
+                    </div>
+                    <div id="bubble1" style="width:100%;height: 70%;position: relative;top: 5%"></div>
+                </div>
+                <div id="centerTwo-right" class="centerTwo-right">
+                    <div id="yb3" style="width:100%;height: 100%;"></div>
+                </div>
+            </div>
+            <div class="centerThree">
+                <div class="barsize">
+                    <div class="bar1">
+                        <section class="container" id="sec1">
+                            <div class="title" style="font-size:0.8rem;color:#238BF1;">
+                                虚拟IP消耗情况
+                            </div>
+                            <div class="bgcolor"></div>
+                            <div class="progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="bar2">
+                        <section class="container" id="sec2">
+                            <div class="title" style="font-size:0.8rem;color:#238BF1;">
+                                设备分配使用情况
+                            </div>
+                            <div class="bgcolor"></div>
+                            <div class="progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="centerFour">
+                <div class="centerFour-left">
+                    <div class="onetitle">
+                        <span></span>
+                        <h3>存储资源</h3>
+                    </div>
+                    <div style="width:100%;height:10%;position:relative;top: 5%;color:#238BF1!important;">
+                        <p style="font-size:0.7rem;color:#238BF1!important;">模板&nbsp;&nbsp;<span
+                                style="color: #51F1F1;">3</span>&nbsp;&nbsp;镜像&nbsp;&nbsp;<span
+                                style="color: #51F1F1;">3</span>&nbsp;&nbsp;磁盘&nbsp;&nbsp;<span
+                                style="color: #51F1F1;">4</span></p>
+                    </div>
+                    <div id="bubble2" style="width:100%;height: 70%;position: relative;top:5%"></div>
+                </div>
+                <div class="centerFour-right">
+                    <div id="yb4" style="width:100%;height: 100%;"></div>
+                </div>
+            </div>
+            <div class="centerFive">
+                <div class="barsize">
+                    <div class="bar1">
+                        <section class="container" id="sec3">
+                            <div class="title" style="font-size:0.8rem;color:#238BF1;">
+                                磁盘激活情况
+                            </div>
+                            <div class="bgcolor"></div>
+                            <div class="progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="bar2">
+                        <section class="container" id="sec4">
+                            <div class="title" style="font-size:0.8rem;color:#238BF1;">
+                                模板使用情况
+                            </div>
+                            <div class="bgcolor"></div>
+                            <div class="progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="rightOne">
+                <div class="onetitle">
+                    <span></span>
+                    <h3>计算资源变化</h3>
+                </div>
+                <div id="rightOne" style="width:100%;height: 70%;position: relative;top: 10%">
+
+                </div>
+            </div>
+            <div class="rightTwo">
+                <div class="onetitle">
+                    <span></span>
+                    <h3>事件播报</h3>
+                </div>
+                <div style="position: relative; overflow: hidden; padding-left: 2rem!important;box-sizing: border-box;width: 100%; height: 70%;">
+                    <ul id='timeline' style="font-size: 15px;">
+
+                        <li class='work'>
+                            <input class='radio' name='works' type='radio'>
+                            <div class="relative">
+                                <label>管理员发布了公告</label>
+                                <span class='date'>2018-10-22 18:22:40</span>
+                                <span class='circle'></span>
+                            </div>
+                            <div class='content'>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus
+                                    quo velit natus
+                                    cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!
+                                    Molestiae officiis
+                                    voluptate excepturi rem veritatis eum aliquam qui laborum non ipsam ullam tempore
+                                    reprehenderit
+                                    illum eligendi cumque mollitia temporibus! Natus dicta qui est optio rerum.
+
+                                </p>
+                            </div>
+                        </li>
+                        <li class='work'>
+                            <input class='radio' name='works' type='radio'>
+                            <div class="relative">
+                                <label>管理员批量创建了虚拟机</label>
+                                <span class='date'>2018-10-22 17:55:02</span>
+                                <span class='circle'></span>
+                            </div>
+                            <div class='content'>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus
+                                    quo velit natus
+                                    cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!
+                                    Molestiae officiis
+                                    voluptate excepturi rem veritatis eum aliquam qui laborum non ipsam ullam tempore
+                                    reprehenderit
+                                    illum eligendi cumque mollitia temporibus! Natus dicta qui est optio rerum.
+
+                                </p>
+                            </div>
+                        </li>
+                        <li class='work'>
+                            <input class='radio' name='works' type='radio'>
+                            <div class="relative">
+                                <label>管理员添加了池</label>
+                                <span class='date'>2018-10-22 17:42:23</span>
+                                <span class='circle'></span>
+                            </div>
+                            <div class='content'>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus
+                                    quo velit natus
+                                    cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!
+                                    Molestiae officiis
+                                    voluptate excepturi rem veritatis eum aliquam qui laborum non ipsam ullam tempore
+                                    reprehenderit
+                                    illum eligendi cumque mollitia temporibus! Natus dicta qui est optio rerum.
+
+                                </p>
+                            </div>
+                        </li>
+                        <li class='work'>
+                            <input class='radio' name='works' type='radio'>
+                            <div class="relative">
+                                <label>管理员添加了节点</label>
+                                <span class='date'>2018-10-22 17:30:10</span>
+                                <span class='circle'></span>
+                            </div>
+                            <div class='content'>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus
+                                    quo velit natus
+                                    cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!
+                                    Molestiae officiis
+                                    voluptate excepturi rem veritatis eum aliquam qui laborum non ipsam ullam tempore
+                                    reprehenderit
+                                    illum eligendi cumque mollitia temporibus! Natus dicta qui est optio rerum.
+
+                                </p>
+                            </div>
+                        </li>
+                        <li class='work'>
+                            <input class='radio' name='works' type='radio'>
+                            <div class="relative">
+                                <label>管理员添加了集群</label>
+                                <span class='date'>2018-10-22 16:42:55</span>
+                                <span class='circle'></span>
+                            </div>
+                            <div class='content'>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus
+                                    quo velit natus
+                                    cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!
+                                    Molestiae officiis
+                                    voluptate excepturi rem veritatis eum aliquam qui laborum non ipsam ullam tempore
+                                    reprehenderit
+                                    illum eligendi cumque mollitia temporibus! Natus dicta qui est optio rerum.
+
+                                </p>
+                            </div>
+                        </li>
+                        <li class='work'>
+                            <input class='radio' name='works' type='radio'>
+                            <div class="relative">
+                                <label>管理员创建了数据中心</label>
+                                <span class='date'>2018-10-22 16:40:35</span>
+                                <span class='circle'></span>
+                            </div>
+                            <div class='content'>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus
+                                    quo velit natus
+                                    cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!
+                                    Molestiae officiis
+                                    voluptate excepturi rem veritatis eum aliquam qui laborum non ipsam ullam tempore
+                                    reprehenderit
+                                    illum eligendi cumque mollitia temporibus! Natus dicta qui est optio rerum.
+
+                                </p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="rightThree">
+                <div class="onetitle">
+                    <span></span>
+                    <h3>集群危险操作情况</h3>
+                </div>
+                <div id="rightThree" style="width:100%;height: 70%;position: relative;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/common/highcharts.js"></script>
+<script src="js/common/jquery.js"></script>
+<script src="js/common/highcharts-more.js"></script>
+<script src="js/common/solid-gauge.js"></script>
+<script src="js/common/highcharts-zh_CN.js"></script>
+<script src="js/common/echarts.min.js"></script>
+<script>
+
+    //设置大屏布局
+    $(document).ready(function () {
+        // var height = $(document.body).height();
+        var height = $(window).height();
+        $('body').css('height', height);
+        $('.layui-row').css('height', height);
+        $('header').css('height', height * 0.052);
+        $('.content').css('height', height * 0.948);
+        var oneh = $('.leftOne .onetitle span').height();
+        $('.onetitle span').css('width', oneh);
+        $('.onetitle span').css('height', oneh);
+        var liwidth = $(".leftOne ul li div").width();
+        $(".leftOne ul li div").css({"height": liwidth, "line-height": liwidth + "px"})
+    })
+</script>
+<script src="js/index/timeLine.js"></script>
+<script src="js/index/progress.js"></script>
+<script src="js/index/highChartsContent.js"></script>
+<script src="js/index/echartsContent.js"></script>
+</body>
+</html>
