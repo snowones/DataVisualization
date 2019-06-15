@@ -1,24 +1,23 @@
-# dataVisualization
- #
-#### f11È«ÆÁÊ³ÓÃĞ§¹û¸ü¼Ñ ####
-##  Êı¾İ¿ÉÊÓ»¯´óÆÁÄ»Õ¹Ê¾ ##
-###  Ê¹ÓÃ¼¼Êõ  ###
-+ css position¡¢float µÈµÈ¼¼ÇÉĞÔ²¼¾Ö
-+ jquery ÅäºÏ²¼¾Ö ÒÔ¼°dom²Ù×÷
-+ ajax Êı¾İ´«Êä£¨Õ¹Ê¾ÄÚÈİÈ«²¿»»³É·ÇÕæÊµÊı¾İ  Òş²ØÁËÊı¾İ½Ó¿Ú£©
-+ hightcharts ¶¯Ì¬Í¼±í  ¹²9¸ö
-+ echarts ¶¯Ì¬Í¼±í    ¹²Ò»¸ö
-+ »¹ÓĞĞ©²»Ì«ÊÊºÏÓÃÉÏÃæÁ½¸ö¿âµÄÊı¾İ  ÎÒ×Ô¼ºÊÖĞ´ÁË¿ÉÊÓ»¯Õ¹Ê¾
-###  ÓÃÍ¾  ###
-ÓÃÓÚ2018±±¾©°²²©»áÕ¹Ê¾
-###  Ä¿Â¼½á¹¹  ###
+# dataVisualization#
+ f11å…¨å±é£Ÿç”¨æ•ˆæœæ›´ä½³
+##  æ•°æ®å¯è§†åŒ–å¤§å±å¹•å±•ç¤º ##
+###  ä½¿ç”¨æŠ€æœ¯  ###
++ css positionã€float ç­‰ç­‰æŠ€å·§æ€§å¸ƒå±€
++ jquery é…åˆå¸ƒå±€ ä»¥åŠdomæ“ä½œ
++ ajax æ•°æ®ä¼ è¾“ï¼ˆå±•ç¤ºå†…å®¹å…¨éƒ¨æ¢æˆéçœŸå®æ•°æ®  éšè—äº†æ•°æ®æ¥å£ï¼‰
++ hightcharts åŠ¨æ€å›¾è¡¨  å…±9ä¸ª
++ echarts åŠ¨æ€å›¾è¡¨    å…±ä¸€ä¸ª
++ è¿˜æœ‰äº›ä¸å¤ªé€‚åˆç”¨ä¸Šé¢ä¸¤ä¸ªåº“çš„æ•°æ®  æˆ‘è‡ªå·±æ‰‹å†™äº†å¯è§†åŒ–å±•ç¤º
+###  ç”¨é€”  ###
+ç”¨äº2018åŒ—äº¬å®‰åšä¼šå±•ç¤º
+###  ç›®å½•ç»“æ„  ###
 + css
     	+ common
 		+ font-awesome.min.css
     	+ index
-		+index.css  Ò³ÃæÖ÷Òª²¼¾Ö
-		+progress.css  ×Óµ¯Í¼¶¯Ì¬Õ¹Ê¾
-		+timeLine.css   Ê±¼äÖá¶¯Ì¬Õ¹Ê¾
+		+index.css  é¡µé¢ä¸»è¦å¸ƒå±€
+		+progress.css  å­å¼¹å›¾åŠ¨æ€å±•ç¤º
+		+timeLine.css   æ—¶é—´è½´åŠ¨æ€å±•ç¤º
 + js
     	+ common
 		+ echarts.min.js
@@ -28,14 +27,14 @@
 		+ jquery.js
 		+ solid-gauge.js
     	+ index
-		+ echartsContent.js  echartsÍ¼±í
-		+ highChartsContent.js  hightchartsÍ¼±í
-		+ progress.js  ×Óµ¯Í¼¶¯Ì¬Õ¹Ê¾
-		+ timeLine.js   Ê±¼äÖá¶¯Ì¬Õ¹Ê¾
+		+ echartsContent.js  echartså›¾è¡¨
+		+ highChartsContent.js  hightchartså›¾è¡¨
+		+ progress.js  å­å¼¹å›¾åŠ¨æ€å±•ç¤º
+		+ timeLine.js   æ—¶é—´è½´åŠ¨æ€å±•ç¤º
 + img
-+ dataVisualization.html  Ö±½ÓÔËĞĞÔÚchrome¼´¿É
++ dataVisualization.html  ç›´æ¥è¿è¡Œåœ¨chromeå³å¯
 
-###  Õ¹Ê¾Ğ§¹û  ###
+###  å±•ç¤ºæ•ˆæœ  ###
 [my-logo.png]: <img/page.png> "my-logo"
 
 
